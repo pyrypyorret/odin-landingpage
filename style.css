@@ -5,6 +5,7 @@
 
 body{
     font-family: sans-serif;
+    margin: 0px;
 }
 
 /* hero */
@@ -15,7 +16,7 @@ body{
     flex-direction: column;
 }
 
-/* header */
+/* hero header */
 .header{
     margin-bottom: 100px;
     display: flex;
@@ -51,17 +52,38 @@ a{
 
 .intro{
     display: flex;
-    justify-content: space-around;
-    padding-bottom: 100px;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex: 1;
+}
+
+.i-img-container{
+    flex-grow: 1;
+}
+.intro-img{
+    width: 500px;
+    height: 205px;
+    object-fit: cover;
+}
+
+/* intro left*/
+
+.intro-left{
+    margin-right: 100px;
+    height: 205px;
 }
 
 .hero-maintext {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
 }
-.intro-left{
-margin-right: 100px;
+.hero-subtext{
+    margin: 0px;
+    margin-bottom: 10px;
 }
 
 button{
@@ -72,11 +94,51 @@ button{
     text-align: center;
     padding: 10px 30px;
     border-radius: 10px;
+    margin: 0px;
+}
+
+/* information */
+
+.information{
+    padding: 0px 200px;
+    padding-bottom: 150px;
+}
+
+.info-header-text{
+    margin: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.card-grid{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
 }
 
 .card-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-    outline: 4px solid #3882F6;
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+    outline: 3px solid #3882F6;
+    flex-shrink: 0;
 }
+
+.card p{
+    text-align: justify;
+    text-align-last: center;
+    color: #293443;
+}
+
+/* quote */
+
