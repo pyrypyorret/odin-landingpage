@@ -160,3 +160,35 @@ button{
     font-size: 24px;
     font-weight: 700;
 }
+
+/* call to action */
+
+.call{
+    padding: 100px 200px;
+}
+
+.bluebox{
+    padding: 45px 150px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calltext h2{
+    color: #F9FAF8;
+    margin: 0px;
+    margin-bottom: 5    px;
+}
+
+.calltext p{
+    color: #F9FAF8;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.callbutton{
+    outline: 2px white solid;
+    border-radius: 5px;
+}
